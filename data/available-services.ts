@@ -82,7 +82,7 @@ export const availableServices: Service[] = [
   },
   {
     value: "substack",
-    label: "Substack",
+    label: "substack",
     category: "Content",
   },
   {

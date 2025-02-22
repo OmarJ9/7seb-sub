@@ -13,7 +13,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Calendar } from "lucide-react";
-import { availableServices, billingCycles } from "@/data/available-services";
+import {
+  availableServices,
+  billingCycles,
+} from "@/constants/available-services";
 import { createSubscription } from "@/actions/subscription";
 import { ActionResponse } from "@/types/types";
 import { useActionState } from "react";
@@ -62,7 +65,7 @@ export function AddSubscriptionForm() {
           <SelectContent>
             {availableServices.map((service) => (
               <SelectItem key={service.value} value={service.value}>
-                {service.label}
+                {service.value}
               </SelectItem>
             ))}
           </SelectContent>

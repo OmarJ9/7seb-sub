@@ -10,7 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { billingCycles } from "@/data/available-services";
+import { billingCycles } from "@/constants/available-services";
 import { ActionResponse, Subscription } from "@/types/types";
 import { updateSubscription } from "@/actions/subscription";
 import { useRouter } from "next/navigation";

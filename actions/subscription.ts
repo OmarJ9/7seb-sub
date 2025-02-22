@@ -1,6 +1,6 @@
 "use server";
 
-import { availableServices, billingCycles } from "@/data/available-services";
+import { availableServices, billingCycles } from "@/constants/available-services";
 import { ActionResponse } from "@/types/types";
 import { createClient } from "@/utils/supabase/server";
 import {

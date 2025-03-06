@@ -2,7 +2,6 @@
 
 This is a subscription management web application built using Next.js 15, Supabase, and ShadCN UI. It features authentication via Google and Magic Link, along with customizable theme colors and dark mode support.
 
-## Star ⭐ the repo if you like what you see😉.
 
 ## Features
 
@@ -53,3 +52,5 @@ Make sure you have the following installed:
 
 Below is an image of the database schema used in Supabase:
 <img src="./public/screenshots/database.png">
+
+# Star ⭐ the repo if you like what you see😉.

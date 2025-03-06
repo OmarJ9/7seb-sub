@@ -1,7 +1,6 @@
 import { Subscription } from "@/types/types";
 import { createClient } from "@/utils/supabase/server";
 
-
 interface CostBreakdown {
   monthlyTotal: number;
   yearlyTotal: number;
@@ -50,7 +49,6 @@ export const getUserSubscriptions = async () => {
     return [];
   }
 };
-
 
 export async function getTotalSubscriptionCost() {
   try {

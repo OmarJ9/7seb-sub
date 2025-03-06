@@ -36,10 +36,7 @@ export async function RecentSubscriptions({
                 className="flex items-center justify-between border-b pb-4 last:border-0 last:pb-0"
               >
                 <div className="flex items-center space-x-3">
-                  <SubscriptionAvatar
-                    serviceName={subscription.service_name}
-                    className="h-8 w-8"
-                  />
+                  <SubscriptionAvatar serviceName={subscription.service_name} />
                   <div className="space-y-1">
                     <p className="font-medium">{subscription.service_name}</p>
                     <p className="text-sm text-muted-foreground">

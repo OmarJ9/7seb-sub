@@ -1,17 +1,12 @@
-import { availableServices, brandColors } from "@/constants/available-services";
+import { availableServices } from "@/constants/available-services";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 interface SubscriptionAvatarProps {
-  serviceName: keyof typeof brandColors | string;
-  className?: string;
+  serviceName: string;
 }
 
-export function SubscriptionAvatar({
-  serviceName,
-  className,
-}: SubscriptionAvatarProps) {
-  const normalizedServiceName =
-    serviceName.toLowerCase() as keyof typeof brandColors;
+export function SubscriptionAvatar({ serviceName }: SubscriptionAvatarProps) {
   const service = availableServices.find(
     (s) => s.value.toLowerCase() === serviceName.toLowerCase()
   );
@@ -19,12 +14,16 @@ export function SubscriptionAvatar({
   return (
     <div
       className={cn(
-        "flex h-10 w-10 items-center justify-center rounded-full text-white font-bold",
-        brandColors[normalizedServiceName] || "bg-teal-500",
-        className
+        "w-12 h-12 flex items-center justify-center rounded-full bg-white shadow-md p-2"
       )}
     >
-      {service?.initials || serviceName[0]}
+      <Image
+        src={service?.image ?? "/placeholder.svg"}
+        alt={service?.value ?? "Unknown service"}
+        width={36}
+        height={36}
+        className="object-contain"
+      />
     </div>
   );
 }

@@ -52,4 +52,4 @@ Make sure you have the following installed:
 Below is an image of the database schema used in Supabase:
 <img src="./public/screenshots/database.png">
 
-Star ⭐ the repo if you like what you see😉.
+# Star ⭐ the repo if you like what you see😉.

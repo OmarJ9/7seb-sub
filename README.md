@@ -13,11 +13,12 @@ This is a subscription management web application built using Next.js 15, Supaba
 ## Showcase
 
 Here are some screenshots showcasing the web application:
-<img src="./public/screenshots/Screenshot-1.png" style="margin-bottom: 20px;">
-<img src="./public/screenshots/screenshot-2.png" style="margin-bottom: 20px;">
-<img src="./public/screenshots/Screenshot-3.png" style="margin-bottom: 20px;">
-<img src="./public/screenshots/Screenshot-4.png" style="margin-bottom: 20px;">
-<img src="./public/screenshots/Screenshot-5.png" style="margin-bottom: 20px;">
+
+<img src="./public/screenshots/Screenshot-1.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/screenshot-2.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-3.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-4.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-5.png" style="margin-bottom: 80px;">
 <img src="./public/screenshots/Screenshot-6.png" style="margin-bottom: 20px;">
 
 ## Prerequisites
